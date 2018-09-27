@@ -1,4 +1,10 @@
+$maincolor: #1f2325;
+
 .reveal {
+  .progress, .controls {
+    background: rgba(0, 0, 0, 0.2);
+    color: $maincolor;
+  }
   section {
     img {
       border: none;
@@ -6,9 +12,28 @@
       box-shadow: none;
       margin: 0;
     }
+
+    h1, h2, h3, h4, & {
+      font-family: papaya_sunriseregular, serif;
+      color: $maincolor;
+    }
+
+    h3 {
+      padding-bottom: 30px;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    li {
+      padding-bottom: 30px;
+      background: url('../img/bullet.png') no-repeat 0 30%;
+      padding-left: 60px;
+    }
+
   }
 }
-
 
 .fullscreen-container {
   position: fixed;
@@ -21,4 +46,17 @@
   flex-direction: column;
   justify-content: center;
   display: flex;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+div.slide-background.present[data-background-hash="img/title.pngnullnullnullnullnullnullnullnullnull"] {
+  animation: fadein 5s forwards;
 }
