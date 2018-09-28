@@ -8,11 +8,16 @@
   box-shadow: none;
   margin: 0; }
 
-.reveal section h1, .reveal section h2, .reveal section h3, .reveal section h4, .reveal section {
+.reveal section h1, .reveal section h2, .reveal section h3, .reveal section h4, .reveal section h5, .reveal section {
   font-family: papaya_sunriseregular, serif;
   color: #1f2325; }
 
 .reveal section h3 {
+  padding-bottom: 30px;
+  line-height: 2em; }
+
+.reveal section h5.small-header {
+  font-size: 0.9em;
   padding-bottom: 30px; }
 
 .reveal section ul {
@@ -22,6 +27,9 @@
   padding-bottom: 30px;
   background: url("../img/bullet.png") no-repeat 0 30%;
   padding-left: 60px; }
+
+.reveal section .accent {
+  color: #d22020; }
 
 .fullscreen-container {
   position: fixed;
