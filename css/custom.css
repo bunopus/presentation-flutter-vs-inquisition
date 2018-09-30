@@ -15,6 +15,10 @@
 .reveal section h3 {
   padding-bottom: 30px;
   line-height: 2em; }
+  .reveal section h3.title-heading {
+    padding-bottom: 0;
+    font-size: 1.6em;
+    padding-left: 40%; }
 
 .reveal section h5.small-header {
   font-size: 0.9em;
@@ -30,6 +34,9 @@
 
 .reveal section .accent {
   color: #d22020; }
+
+.reveal section .shadowed {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.52); }
 
 .fullscreen-container {
   position: fixed;

@@ -22,6 +22,13 @@ $secondarycolor: #d22020;
     h3 {
       padding-bottom: 30px;
       line-height: 2em;
+
+      &.title-heading {
+        padding-bottom: 0;
+        font-size: 1.6em;
+        padding-left: 40%;
+
+      }
     }
 
     h5.small-header {
@@ -42,6 +49,11 @@ $secondarycolor: #d22020;
     .accent {
       color: $secondarycolor;
     }
+
+    .shadowed {
+      box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.52);
+    }
+
   }
 }
 
