@@ -82,3 +82,7 @@ $secondarycolor: #d22020;
 div.slide-background.present[data-background-hash="img/title.pngnullnullnullnullnullnullnullnullnull"] {
   animation: fadein 5s forwards;
 }
+
+div.slide-background.present[data-background-hash="img/durer-bg.pngnullnullnullnullnullnullnullnullnull"] {
+  filter: opacity(10%);
+}

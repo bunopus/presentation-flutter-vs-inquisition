@@ -74,3 +74,7 @@
 div.slide-background.present[data-background-hash="img/title.pngnullnullnullnullnullnullnullnullnull"] {
   -webkit-animation: fadein 5s forwards;
           animation: fadein 5s forwards; }
+
+div.slide-background.present[data-background-hash="img/durer-bg.pngnullnullnullnullnullnullnullnullnull"] {
+  -webkit-filter: opacity(10%);
+          filter: opacity(10%); }
