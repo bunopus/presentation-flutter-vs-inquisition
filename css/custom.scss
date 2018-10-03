@@ -70,6 +70,36 @@ $secondarycolor: #d22020;
     img.glowing {
       animation: glowing 2000ms infinite;
     }
+    .info {
+
+      .twitter {
+        img {
+          width: 60px;
+          padding-right: 10px;
+          opacity: 0.9;
+        }
+        padding-bottom: 50px;
+      }
+      .wrike_social {
+        padding-bottom: 50px;
+      }
+
+      img.small-logo {
+        width: 50px;
+        margin: 0;
+        vertical-align:middle;
+        border-radius: 0;
+        padding-right: 5px;
+      }
+
+      .team-text {
+        padding-top: 20px;
+      }
+
+      a {
+        color: $maincolor;
+      }
+    }
   }
 }
 
@@ -129,4 +159,10 @@ div.slide-background.present[data-background-hash="0whitenullnullnonenull"] {
   0%   { opacity:1; }
   50%  { opacity:0.9; }
   100% { opacity:1; }
+}
+
+@keyframes spin {
+  10%, 100% {
+    transform:rotate(360deg);
+  }
 }

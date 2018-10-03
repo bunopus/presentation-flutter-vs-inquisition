@@ -52,6 +52,29 @@
   -webkit-animation: glowing 2000ms infinite;
           animation: glowing 2000ms infinite; }
 
+.reveal section .info .twitter {
+  padding-bottom: 50px; }
+  .reveal section .info .twitter img {
+    width: 60px;
+    padding-right: 10px;
+    opacity: 0.9; }
+
+.reveal section .info .wrike_social {
+  padding-bottom: 50px; }
+
+.reveal section .info img.small-logo {
+  width: 50px;
+  margin: 0;
+  vertical-align: middle;
+  border-radius: 0;
+  padding-right: 5px; }
+
+.reveal section .info .team-text {
+  padding-top: 20px; }
+
+.reveal section .info a {
+  color: #1f2325; }
+
 .fullscreen-container {
   position: fixed;
   width: 100%;
@@ -136,3 +159,13 @@ div.slide-background.present[data-background-hash="0whitenullnullnonenull"] {
     opacity: 0.9; }
   100% {
     opacity: 1; } }
+
+@-webkit-keyframes spin {
+  10%, 100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes spin {
+  10%, 100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
