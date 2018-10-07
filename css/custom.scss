@@ -71,17 +71,34 @@ $secondarycolor: #d22020;
       animation: glowing 2000ms infinite;
     }
     .info {
+      margin: 0 50px 0 50px;
+      div {
+        height: 100%;
+        padding-bottom: 10px;
+      }
+      display: grid;
+      .social-icon {
+        &:nth-child(0){
+          grid-column: 1 / 2;
+          grid-row: 1;
+        }
 
-      .twitter {
+        &:nth-child(1){
+          grid-column: 2 / 2;
+          grid-row: 1;
+        }
+
         img {
           width: 60px;
           padding-right: 10px;
           opacity: 0.9;
         }
-        padding-bottom: 50px;
       }
       .wrike_social {
+        padding-top: 50px;
         padding-bottom: 50px;
+        grid-column: 1 / 3;
+        grid-row: 2;
       }
 
       img.small-logo {
@@ -126,7 +143,7 @@ $secondarycolor: #d22020;
 }
 
 div.slide-background.present[data-background-hash="img/title.pngnullnullnullnullnullnullnullnullnull"] {
-  animation: fadein 5s forwards;
+  animation: fadein 2s forwards;
 }
 
 div.slide-background.present[data-background-hash="img/durer-bg.pngnullnullnullnullnullnullnullnullnull"] {
