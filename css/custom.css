@@ -24,6 +24,11 @@
   font-size: 0.9em;
   padding-bottom: 30px; }
 
+.reveal section .fallback-font {
+  font-family: "Montserrat", Impact, sans-serif;
+  font-size: 50px;
+  vertical-align: bottom; }
+
 .reveal section ul {
   list-style-type: none; }
 
@@ -41,7 +46,6 @@
 .reveal section p.neon {
   color: #f3fffd;
   font-family: Monospace, serif;
-  -webkit-animation: neon 1.5s ease-in-out infinite alternate;
   animation: neon 1.5s ease-in-out infinite alternate;
   font-size: 3em;
   text-align: center;
@@ -49,8 +53,7 @@
   text-decoration: none; }
 
 .reveal section img.glowing {
-  -webkit-animation: glowing 2000ms infinite;
-          animation: glowing 2000ms infinite; }
+  animation: glowing 2000ms infinite; }
 
 .reveal section .info {
   margin: 0 50px 0 50px;
@@ -91,25 +94,14 @@
   left: 0;
   top: 0;
   z-index: 10;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
   display: -ms-flexbox;
   display: flex; }
-
-@-webkit-keyframes fadein {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
 
 @keyframes fadein {
   from {
@@ -118,22 +110,13 @@
     opacity: 1; } }
 
 div.slide-background.present[data-background-hash="img/title.pngnullnullnullnullnullnullnullnullnull"] {
-  -webkit-animation: fadein 2s forwards;
-          animation: fadein 2s forwards; }
+  animation: fadein 2s forwards; }
 
 div.slide-background.present[data-background-hash="img/durer-bg.pngnullnullnullnullnullnullnullnullnull"] {
-  -webkit-filter: opacity(10%);
-          filter: opacity(10%); }
+  filter: opacity(10%); }
 
 div.slide-background.present[data-background-hash="0whitenullnullnonenull"] {
-  -webkit-animation: black-to-white 2s forwards;
-          animation: black-to-white 2s forwards; }
-
-@-webkit-keyframes black-to-white {
-  from {
-    background-color: black; }
-  to {
-    background-color: white; } }
+  animation: black-to-white 2s forwards; }
 
 @keyframes black-to-white {
   from {
@@ -141,25 +124,11 @@ div.slide-background.present[data-background-hash="0whitenullnullnonenull"] {
   to {
     background-color: white; } }
 
-@-webkit-keyframes neon {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF; }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF; } }
-
 @keyframes neon {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF; }
   to {
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF; } }
-
-@-webkit-keyframes glowing {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0.9; }
-  100% {
-    opacity: 1; } }
 
 @keyframes glowing {
   0% {
@@ -169,12 +138,6 @@ div.slide-background.present[data-background-hash="0whitenullnullnonenull"] {
   100% {
     opacity: 1; } }
 
-@-webkit-keyframes spin {
-  10%, 100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg); } }
-
 @keyframes spin {
   10%, 100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg); } }
+    transform: rotate(360deg); } }
