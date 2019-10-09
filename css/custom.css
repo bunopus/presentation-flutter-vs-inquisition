@@ -82,6 +82,20 @@
     vertical-align: middle;
     border-radius: 0;
     padding-right: 5px; }
+  .reveal section .info .dartup {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center; }
+    .reveal section .info .dartup a:hover img {
+      box-shadow: none; }
+    .reveal section .info .dartup img {
+      height: 50px;
+      width: auto;
+      padding-bottom: 10px; }
+    .reveal section .info .dartup .caption {
+      display: block;
+      font-size: 20px;
+      font-family: "Montserrat", Impact, sans-serif; }
   .reveal section .info .team-text {
     padding-top: 20px; }
   .reveal section .info a {

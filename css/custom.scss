@@ -115,6 +115,29 @@ $secondarycolor: #d22020;
         padding-right: 5px;
       }
 
+      .dartup {
+
+        a:hover {
+          img {
+            box-shadow: none;
+          }
+        }
+        vertical-align: top;
+        display: inline-block;
+        text-align: center;
+
+        img {
+          height: 50px;
+          width: auto;
+          padding-bottom: 10px;
+        }
+        .caption {
+          display: block;
+          font-size: 20px;
+          font-family: "Montserrat", Impact, sans-serif;
+        }
+      }
+
       .team-text {
         padding-top: 20px;
       }
